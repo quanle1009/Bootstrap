@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/style-new.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Đăng nhập</title>
+</head>
+<body>
+        <div class="container-fluid menu-top bg-dark">
+        <div class="container">
+        <div class="row sidebar text-center">
+            <div class="col-md-1 sidebar-logo">
+                <a href="index.html"><img src="image/logo.webp"></a>
+            </div>
+            <div class="col-md-9  sidebar-nav">
+                <div class="btn-group">
+                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">MIẾNG DÁN DA</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Bản đặc biệt</a></li>
+                        <li><a class="dropdown-item" href="#">Dán full viền</a></li>
+                        <li><a class="dropdown-item" href="#">Apple</a></li>
+                        <li><a class="dropdown-item" href="#">Samsung</a></li>
+                        <li><a class="dropdown-item" href="#">Blackberry</a></li>
+                        <li><a class="dropdown-item" href="#">Huawei</a></li>
+                        <li><a class="dropdown-item" href="#">Xiaomi</a></li>
+                        <li><a class="dropdown-item" href="#">Sony</a></li>
+                        <li><a class="dropdown-item" href="#">LG</a></li>
+                        <li><a class="dropdown-item" href="#">Oppo</a></li>
+                        <li><a class="dropdown-item" href="#">Laptop</a></li>
+                        <li><a class="dropdown-item" href="#">Các hãng khác</a></li>
+                    </ul>
+                 </div>
+                <div class="btn-group">
+                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">BAO DA</button>
+                    <ul class="dropdown-menu style02">
+                      <li><a class="dropdown-item" href="#">Bao điện thoại</a></li>
+                        <li><a class="dropdown-item" href="#">Bao chìa khóa</a></li>
+                        <li><a class="dropdown-item" href="#">Bao Laptop</a></li>
+                        <li><a class="dropdown-item" href="#">Bao máy tính bảng</a></li>
+                    </ul>
+                 </div>
+                 <a class="btn" href="#" role="button">VÍ DA</a>
+                 <a class="btn" href="#" role="button">DÂY ĐỒNG HỒ</a>
+                 <a class="btn" href="#" role="button">SẢN PHẨM KHÁC</a>
+                 <a class="btn" href="#" role="button">SALE</a>
+                 <a class="btn" href="gioi_thieu.html" role="button">GIỚI THIỆU</a>
+                 <a class="btn" href="lien_he.html" role="button">LIÊN HỆ</a>
+            </div>
+            <div class="col-md-2 sidebar-icon text-white">
+                <i class="bi bi-search"></i>
+                <i class="bi bi-bag" class="bi bi-bag" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+                <i class="bi bi-person"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal-dialog modal-xl modal" style="position:fixed;" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Giỏ hàng</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <section class="cart">
+     <form action="">
+         <table>
+              <thead>
+                   <tr>
+                        <th>Sản phẩm</th>
+                        <th>Giá</th>
+                        <th>SL</th>
+                        <th>Chọn</th>
+                   </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+         </table>
+         <div class="price-total" style="text-align: right;">
+           <p style="font-weight:bold;">Tổng tiền: <span>0</span><sup>đ</sup></p>
+         </div>
+
+      </form>
+</section> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+        <button type="button" class="btn btn-primary">Thanh toán</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container signin">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-3">
+            <p class="fs-3 fw-bold">Đăng nhập</p>
+            <form class=" login">
+                <div class="mb-3 text-start">
+                    <label for="exampleInputEmail1" class="form-label">Địa chỉ Email:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3  text-start">
+                    <label for="exampleInputPassword1" class="form-label">Mật khẩu</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="submits">
+                    <a href="index.html"><button type="button" class="btn btn-dark">Đăng Nhập</button></a>
+                </div>
+                <a href="#" class="forget">Quên mật khẩu?</a>
+                <p class="line">Hoặc</p>
+            </form>
+            <div class="s-btn">
+                <div class="btn-google">
+                   <button type="button" class="btn btn-light">
+                      <img src="image/google-icon.png">
+                      <span>&nbsp;Đăng Nhập Bằng Google</span>
+                   </button>
+                </div>
+                <div class="btn-facebook">
+                    <button type="button" class="btn btn-light">
+                       <i class="fa-brands fa-facebook-f"></i>
+                       <span>&nbsp;Đăng Nhập Bằng Facebook</span>
+                    </button>
+                </div>
+            </div>
+            <div class="text-login text-start">Bằng cách đăng nhập vào tài khoản của bạn, bạn đồng ý với <a href="#">Chính sách bảo mật & Cookie và Điều khoản và Điều kiện</a> của chúng tôi.</div>
+            <div class="text-danger fs-6">ĐĂNG NHẬP ĐỂ NHẬN THÊM ƯU ĐÃI</div>
+        </div>
+        
+        <div class="col-md-1 login-line"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <p class="fs-3 fw-bold">Mới đến Davis</p>
+            <form class="regsiter">
+                <div class="mb-3 text-start">
+                    <label for="exampleInputEmail1" class="form-label">Địa chỉ Email:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3  text-start">
+                    <label for="exampleInputPassword1" class="form-label">Mật khẩu</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3  text-start">
+                    <label for="exampleInputPassword1" class="form-label">Xác nhận mật khẩu</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="regsiter-checkbox text-start">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">Miếng dán da</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">Dây đồng hồ</label>
+                            </div>                          
+                        </div>
+                        <div class="col-md-5">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">Bao da</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">Ví da</label>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="submits reg  text-center">
+                <a href="index.html"><button type="button" class="btn btn-dark">Đăng Ký</button></a>
+                <a href="#" class="forget">Tại sao đăng ký?</a>
+                <div class="text-danger fs-6">GIẢM 70K CHO ĐƠN HÀNG ĐẦU TIÊN</div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+<div class="container-fluid sections">
+   <div class="container section text-center">
+        <button type="button" class="btn section-title">ĐĂNG KÝ NHẬN TIN</button>
+        <p class="section-content">Nhập địa chỉ email của bạn để nhận được tin tức mới nhất</p>
+        <div class="input-group justify-content-center">
+            <input type="text" class="form-control" placeholder="Nhập email của bạn..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">Đăng ký</span>
+        </div>
+</div> 
+</div>
+<div class="container-fluid footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 time-footer">
+                <h3>Công ty TNHH Davis</h3>
+                <p>Lịch làm việc: T2 - T7</p>
+                <p>Sáng: 8h - 12h</p>
+                <p>Chiều : 13h30 - 17h30</p>
+            </div>
+            <div class="col-md-3">
+                <h3>Hướng dẫn</h3>
+                <ul class="link-footer">
+                    <li><a href="#">Thanh toán</a></li>
+                    <li><a href="#">Khắc laser là gì?</a></li>
+                    <li><a href="#">Hướng dẫn dán da</a></li>
+                    <li><a href="#">Hướng dẫn vệ sinh đồ da</a></li>  
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3>Thông tin</h3>
+                <ul class="link-footer">
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Giới thiệu DAVIS</a></li>
+                    <li><a href="#">Lưu ý cần biết</a></li>
+                    <li><a href="#">Đặc quyền KHTT</a></li>  
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h3>Liên hệ</h3>
+                <ul class="link-footer">
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                    <li><a href="#">Chính sách vận chuyển</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="#">Điều khoản dịch vụ</a></li>  
+                </ul>
+            </div>
+        </div>
+        <div class="row icon-footer text-center">
+            <div class="col-md">   
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>  
+        </div>
+    </div><hr>
+    <div class="container">
+        <div class="row footer-contact">
+            <div class="col-md-3">
+                <i class="fa-solid fa-house-chimney"></i>
+                <p>Hà Nội: Số 45 Ngõ 199 Hồ Tùng Mậu, P. Cầu Diễn, Q. Nam Từ Liêm</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fa-solid fa-house-chimney"></i>
+                <p>Hồ Chí Minh: 29 Đường Phan Chu Trinh, P Hiệp Phú, Quận 9</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fa-solid fa-envelope"></i>
+                <p>Email:<br>info@davis.vn</p>
+            </div>
+            <div class="col-md-3">
+                <i class="fa-solid fa-mobile"></i>
+                <p>Phone:<br>0888.81.82.86</p>
+            </div>
+        </div>
+    </div><hr>
+    <div class="container footer-menu">
+        <div class="row">
+            <div class="col-md-4 text-start">
+                <img src="image/dathongbao.webp" style="max-width: 150px;">
+            </div>
+            <div class="col-md-8 text-start">
+                <p>Giấy CNĐKKD: 0313026493 - Ngày Cấp: 24/11/2014 - Nơi Cấp: Sở kế hoạch và đầu tư</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

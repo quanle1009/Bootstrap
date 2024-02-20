@@ -1,0 +1,323 @@
+
+.menu-top {
+  position: fixed !important;
+  z-index: 9999;
+}
+.dropdown-menu {
+  height: 608px;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.style02 {
+  height: 208px;
+}
+.dropdown-menu .dropdown-item {
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+}
+.dropdown-menu .dropdown-item:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+.sidebar-logo img{
+  max-width: 130px;
+  display: block;
+  padding: 10px;
+}
+.sidebar-nav {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.sidebar-nav .btn {
+  color: white;
+}
+.sidebar-nav .btn:hover {
+  border: 1px solid    #444444;
+  background-color:     #444444;
+}
+.sidebar-icon{
+  padding-top: 25px;
+}
+.sidebar-icon i {
+  padding-left: 10px;
+}
+
+
+
+
+
+.breadcrumb {
+  padding-top: 90px;
+}
+.breadcrumb a{
+  color: black;
+  text-decoration: none;
+}
+.title {
+    font-size: 35px;
+    color: #333333;
+    margin: 0px 0px 30px 0px;
+    font-family: 'SVN-Veneer';
+    font-weight: bold;
+    padding: 30px 0 30px 0;
+}
+.headding {
+  padding-left: 50px;
+}
+
+
+.sections {
+  border-top: 7px solid  #DDDDDD;
+  margin-top: 30px;
+}
+.section {
+  text-align: center;
+}
+.section-title{
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #333a3d;
+    border: none;
+    padding: 30px 0 0 0;
+    border-bottom: 5px solid black;
+    border-radius: 0;
+
+}
+.section-content {
+  font-size: 20px;
+  padding-top: 20px;
+}
+.section .input-group {
+  width: 500px;
+  margin-left: 400px;
+  padding-bottom: 30px;
+}
+.section .form-control {
+  border: none;
+  border-bottom: 1px solid silver;
+  border-radius: 0;
+}
+.section .input-group-text {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100px;
+}
+
+.footer {
+  background-color: black;
+  color: #fff;
+  padding-top: 50px;
+}
+.link-footer {
+  list-style-type: none;
+   padding-top: 5px;
+
+   margin-left: -30px;
+}
+.link-footer li{
+   padding-top: 10px;
+}
+.link-footer a {
+  text-decoration: none;
+  color: #fff;
+
+}
+.link-footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.icon-footer {
+  font-size: 20px;
+}
+.icon-footer i{
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: #444444;
+  width: 50px;
+  height: 50px;
+  padding-top: 12px;
+      display: inline-block;
+          text-align: center;
+}
+.icon-footer .fa-facebook-f:hover{
+  background-color: #0066CC;
+}
+.icon-footer .fa-youtube:hover{
+  background-color: #FF0000;
+}
+.icon-footer .fa-instagram:hover{
+  background-color:   #FF3366;
+}
+.footer-contact i {
+  float: left;
+  font-size: 25px;
+  padding: 10px;
+}
+.footer-menu p{
+  padding: 20px;
+}
+.time-footer p{
+  padding-top:15px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Cart-body {
+  border-top: 0.2px solid   #DDDDDD;
+}
+.cart-row {
+  border-bottom: 0.2px solid  #DDDDDD;
+  padding: 10px 0 10px 0;
+}
+.cart-total {
+  border: 0.2px solid  #DDDDDD;
+  padding: 11px;
+}
+.Cart-footer {
+  border: 0.2px solid  #DDDDDD;
+  padding: 50px;
+  background-color: #fafafa;
+  border-top: none;
+}
+.order {
+  display: inline-block;
+    border: 1px solid transparent;
+    border-color: #66d0e8;
+    background: #66d0e8;
+    height: 45px;
+    padding: 0 30px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff; 
+}
+.order:hover {
+  background-color: white;
+  border: 1px solid #66d0e8;
+  color: black;
+}
+.form-inptext {
+  padding-top: 20px;
+}
+.input-text {
+  border: 1px solid  #DDDDDD;
+  padding: 10px;
+}
+.pd_saler {
+
+  padding-top: 20px;
+}
+.pd_saler .cnt-saler{
+  font-size: 15px;
+  border-top: 0.2px solid   #DDDDDD;
+  padding-top: 10px;
+}
+.continue {
+  padding-top: 30px;
+}
+.continue .btn{
+  border-radius: 50px;
+  height: 60px;
+    padding: 0 40px;
+}
+.signin {
+  padding-top: 100px;
+  text-align: center;
+
+}
+.form-control {
+  border-radius: 0;
+}
+.form-control:hover {
+  border: 1px solid black;
+}
+.login {
+  border-bottom: 1px solid #ccc;
+  padding: 0;
+}
+.signin .submits button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.signin .submits button:hover {
+  background-color:   white;
+  color: black;
+  transition: all 0.4s ease-in-out;
+}
+.signin .submits {
+  padding: 20px 0 10px 0;
+}
+.forget {
+  text-decoration: none;
+  color: #444444;
+  font-size: 15px;
+}
+.forget:hover {
+  color: #444444;
+  text-decoration: underline;
+  transition: all 0.5s ease-in-out;
+}
+.login .line {
+  position: relative;
+  color: #ccc;
+  margin-bottom: -12px;
+  margin-left: 130px;
+  width: 38px;
+  background-color: white;
+}
+.s-btn {
+  padding-top: 20px;
+}
+.s-btn button{
+  width: 100%;
+  height: 50px;
+  border: 1px solid #BBBBBB ;
+  background-color: white;
+  border-radius: 0;
+}
+.s-btn button i{
+  font-size: 27px;
+  color: #2553b4;
+}
+.s-btn button img{
+  width: 27px;
+}
+.btn-facebook {
+  padding-top: 20px;
+}
+.s-btn button:hover{
+  background-color: #EEEEEE;
+}
+.text-login {
+  font-size: 15px;
+  padding: 20px 0 20px 0;
+}
+.login-line {
+  border-right: 1px solid #DDD;
+  height: 550px;
+}
+.regsiter {
+  border-bottom: 1px solid #ccc;
+  padding: 0;
+  padding-bottom: 20px;
+}

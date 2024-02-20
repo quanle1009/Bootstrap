@@ -1,0 +1,343 @@
+
+.menu-top {
+  position: fixed !important;
+  z-index: 9999;
+}
+.dropdown-menu {
+  height: 608px;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.style02 {
+  height: 208px;
+}
+.dropdown-menu .dropdown-item {
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+}
+.dropdown-menu .dropdown-item:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+.sidebar-logo img{
+  max-width: 130px;
+  display: block;
+  padding: 10px;
+}
+.sidebar-nav {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.sidebar-nav .btn {
+  color: white;
+}
+.sidebar-nav .btn:hover {
+  border: 1px solid    #444444;
+  background-color:     #444444;
+}
+.sidebar-icon{
+  padding-top: 25px;
+}
+.sidebar-icon i {
+  padding-left: 10px;
+}
+
+
+
+.breadcrumb {
+  padding-top: 90px;
+}
+.breadcrumb a{
+  color: black;
+  text-decoration: none;
+}
+.title {
+    font-size: 35px;
+    color: #333333;
+    margin: 0px 0px 30px 0px;
+    font-family: 'SVN-Veneer';
+    font-weight: bold;
+    padding: 30px 0 30px 0;
+}
+.section {
+  text-align: center;
+}
+.section-title{
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #333a3d;
+    border: none;
+    padding: 30px 0 0 0;
+    border-bottom: 5px solid black;
+    border-radius: 0;
+
+}
+.section-content {
+  font-size: 20px;
+  padding-top: 20px;
+}
+.section .input-group {
+  width: 500px;
+  margin-left: 400px;
+  padding-bottom: 30px;
+}
+.section .form-control {
+  border: none;
+  border-bottom: 1px solid silver;
+  border-radius: 0;
+}
+.section .input-group-text {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 100px;
+}
+
+.footer {
+  background-color: black;
+  color: #fff;
+  padding-top: 50px;
+}
+.link-footer {
+  list-style-type: none;
+   padding-top: 5px;
+
+   margin-left: -30px;
+}
+.link-footer li{
+   padding-top: 10px;
+}
+.link-footer a {
+  text-decoration: none;
+  color: #fff;
+
+}
+.link-footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.icon-footer {
+  font-size: 20px;
+}
+.icon-footer i{
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: #444444;
+  width: 50px;
+  height: 50px;
+  padding-top: 12px;
+      display: inline-block;
+          text-align: center;
+}
+.icon-footer .fa-facebook-f:hover{
+  background-color: #0066CC;
+}
+.icon-footer .fa-youtube:hover{
+  background-color: #FF0000;
+}
+.icon-footer .fa-instagram:hover{
+  background-color:   #FF3366;
+}
+.footer-contact i {
+  float: left;
+  font-size: 25px;
+  padding: 10px;
+}
+.footer-menu p{
+  padding: 20px;
+}
+.time-footer p{
+  padding-top:15px ;
+}
+.sections {
+  border-top: 7px solid  #DDDDDD;
+  margin-top: 30px;
+}
+
+
+
+.content-product {
+  padding-left: 20px;
+}
+.color-product {
+  padding: 20px;
+}
+.color-product button{
+  width: 65px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid;
+  font-weight: bold;
+}
+.input-texts {
+  margin-top: 10px;
+}
+.upload-box {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.upload-box input{
+    position: absolute;
+    width: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.upload-box label {
+    background: #ccc;
+    display: inline-block;
+    font-size: 14px;
+    min-width: 138px;
+    padding: 5px 5px 5px 10px;
+    color: #000;
+    border: 1px solid #999;
+    line-height: 20px;
+    margin-right: 3px;
+}
+
+
+
+
+
+
+.buttons_added {
+  padding-top: 10px;
+  padding-bottom: 30px;
+
+}
+.is-form {
+    background-color:#f9f9f9;
+    height:50px;
+    width:50px;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:50px;
+    width:50px;
+    text-align:center;
+    font-size:1rem;
+    border:1px solid #ddd;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+.btn-buy {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 30px;
+    background: #fb4843;
+    border: 1px solid #fb4843;
+    display: inline-block;
+    height: 50px;
+    line-height: 45px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    margin-right: 8px;
+}
+.btn-buy:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #fb4843;
+}
+.btn-add {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 30px;
+    background: #66d0e8;
+    border: 1px solid #66d0e8;
+    display: inline-block;
+    height: 50px;
+    line-height: 45px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    margin-right: 8px;
+}
+.btn-add:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #66d0e8;
+}
+.nav-pills {
+  border-bottom: 1px solid #DDD;
+}
+.nav-pills .nav-link {
+  color: black;
+
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: black;
+    background-color: white;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
+.nav-pills .nav-item {
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+
+.card {
+  border: none;
+  width: 300px;
+}
+.card .card-img-top {
+  opacity: 1;
+}
+.card .card-img-top:hover {
+  opacity: 0;
+}
+.card-bottom {
+  opacity: 0; 
+  position: absolute;
+}
+.card-bottom:hover {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+.card-bottom .card-img-bottom {
+}
+.card-bottom .btn {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  border-radius: 0;
+  padding: 10px 0 10px 0;
+  color: white;
+  font-weight: bold;
+  margin-top: -72px;
+}
+.card-bottom .btn:hover {
+  transition: all 0.3s ease-in-out;
+}
+.cart-gia {
+  font-size: 23px;
+  padding-left: 70px;
+}
+.sanpham {
+  margin-top: 50px;
+  border-top: 7px solid #EEE;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

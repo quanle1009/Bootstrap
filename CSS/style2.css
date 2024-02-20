@@ -1,0 +1,92 @@
+
+.col7 {
+	padding-top: 50px;
+	padding-right: 50px;
+	margin-left: 270px;
+}
+.fieldset input {
+	width: 100%;
+	border-radius: 5px;
+	height: 50px;
+	border: 1px solid #CCC;
+	padding-left: 10px;
+}
+.field {
+	padding-bottom: 10px;
+	padding-right: 40px;
+}
+
+.field-two-thirds {
+	width: 60%;
+	padding-right: 0;
+}
+.field-third {
+	width: 40%;
+	padding-right: 52px;
+}
+.formselect .form-select {
+	padding-right: 0;
+	width: 95%;
+	height: 50px;
+}
+.formselect2 {
+	margin-left: -15px;
+}
+.formselect3 {
+	margin-left: -28px;
+}
+.ptvc {
+	padding: 10px;
+}
+.btn-ptvc {
+	width: 92%;
+	margin-left: 12px;
+	border-radius: 5px;
+	height: 250px;
+	border: 1px solid #CCC;
+	background-color: white;
+}
+.formradios {
+	padding-left: 10px;
+	padding-right: 50px;
+}
+.formradios .form-check {
+	border-radius: 5px;
+	padding: 10px;
+	padding-left: 20pxs	;
+	border: 1px solid #CCC;
+	background-color: white;
+}
+.formradios .form-check input{
+	margin-left: 15px;
+	margin-top: 15px;
+}
+.htdh {
+	padding: 38px;
+	padding-bottom: 100px;
+}
+.btn-htdh {
+	float: right;
+	display: inline-block;
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 1.4em 1.7em;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    position: relative;
+    background: #338dbc;
+    color: white;
+    border: 1px solid #338dbc;
+}
+.btn-htdh:hover {
+	background: #00CCFF ;
+    border: 1px solid #00CCFF ;
+}
+.giohang {
+	float: left;
+	text-decoration: none;
+	padding-top: 50px;
+	color: #338dbc;
+}
